@@ -1,0 +1,28 @@
+<body>
+    <div class="container">
+        <h1 class="card-title">PANEL DE USUARIO</h1>
+        <li class="list-group-item">
+            <h5>Nombre</h5>
+            {{user.name}}
+            {{user.lastname}}
+        </li>
+        <li class="list-group-item">
+            <h5>Correo Electrónico</h5> {{user.email}}
+        </li>
+        <li class="list-group-item">
+            <h5>Edad</h5> {{user.age}}
+        </li>
+        <button type="submit" id="cerrarSesion">CERRAR SESIÓN</button>
+    </div>
+    <br />
+    <div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="/js/cerrarSession.js"></script>
+
+</body>
